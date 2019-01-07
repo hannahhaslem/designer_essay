@@ -1,0 +1,689 @@
+/* --------- CSS RESET --------- */
+
+* {
+    padding: 0; 
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+/* --------- MAIN STYLING --------- */
+
+body{
+     width: 80%;
+     max-width: 860px;
+     margin: auto;
+     background-color: #FDF4D8;
+     color: #333;
+     text-align: justify;
+     font-family: 'Roboto', sans-serif;
+     letter-spacing: 0.05em;
+}
+
+header {
+    margin: 5em 0 3em 0
+}
+
+/* --------- TYPOGRAPHY -------*/
+
+h1, h2, h3 {
+    font-weight: normal;
+    text-align: center
+}
+
+p, li, blockquote {
+    margin-bottom: 1.5em;
+    line-height: 1.5em;
+    font-size: 1.08em
+}
+
+.title1 {
+    font-size: 9em;
+    margin-top: 0.7em;
+    margin-bottom: 0.3em;
+    letter-spacing: 0.01em;
+    color: #e8110c;
+    font-family: 'Staatliches', cursive;
+}
+
+.title2 {
+    font-size: 2.4em;
+    margin: 1em 0;
+    margin-bottom: 2em;
+    color: #000000;
+    font-family: 'Staatliches', cursive;
+    background-color: #FDF4D8;
+}
+
+.title3 {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    font-family: 'Staatliches', cursive;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.title4 {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    margin-top: 1em;   
+    font-family: 'Staatliches', cursive;
+    text-transform: uppercase;
+    letter-spacing: 0em;
+    color: #000000;
+}
+
+.title5 {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+    font-family: 'Staatliches', cursive;
+    text-transform: uppercase;
+    letter-spacing: 0em;
+    margin-top: 1em;
+}
+
+.title6 {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+    font-family: 'Staatliches', cursive;
+    text-transform: uppercase;
+    letter-spacing: 0em;
+    margin-top: 1em;
+    color: #000000;
+}
+
+.title7 {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+    font-family: 'Staatliches', cursive;
+    text-transform: uppercase;
+    letter-spacing: 0em;
+    margin-top: 1em;
+    color: #000000;
+}
+
+.title8 {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+    font-family: 'Staatliches', cursive;
+    text-transform: uppercase;
+    letter-spacing: 0em;
+    margin-top: 1em;
+    color: #000000;
+}
+
+.title9 {
+    font-size: 4em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-family: 'Staatliches', cursive;
+    text-transform: uppercase;
+    letter-spacing: 0em;
+    color: #000000;
+}
+
+.title10 {
+    font-size: 4em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-family: 'Staatliches', cursive;
+    text-transform: uppercase;
+    letter-spacing: 0em;
+    color: #000000;
+}
+
+.intro {
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: normal;
+    margin-top: 0.3em;
+    margin-bottom: 0.4em;
+    line-height: 1.6em;
+    text-align: justify;
+}
+
+.earlylife {
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: normal;
+    margin-top: 2em;
+    margin-bottom: 0.4em;
+    line-height: 1.6em;
+    text-align: justify;
+}
+
+
+.maps {
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: normal;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    line-height: 1.6em;
+    text-align: justify;
+}
+
+.queens {
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: normal;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    line-height: 1.6em;
+    text-align: justify;
+}
+
+.first {
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: normal;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    line-height: 1.6em;
+    text-align: justify;
+}
+
+.public {
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: normal;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    line-height: 1.6em;
+    text-align: justify;
+}
+
+.public1  {
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: normal;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    line-height: 1.6em;
+    text-align: justify;
+}
+
+.atlantic {
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: normal;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    line-height: 1.6em;
+    text-align: justify;
+}
+
+.atlantic1 {
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: normal;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    line-height: 1.6em;
+    text-align: justify;
+}
+
+.tdc {
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: normal;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    line-height: 1.6em;
+    text-align: justify;
+}
+
+.atlanta {
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: normal;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    line-height: 1.6em;
+    text-align: justify;
+}
+
+.planned {
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: normal;
+    margin-top: 2em;
+    margin-bottom: 2em;    
+    line-height: 1.6em;
+    text-align: justify;
+}
+
+.conclusion {
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: normal;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    line-height: 1.6em;
+    text-align: justify;
+}
+
+
+<*---------- NAVIGATION ---------*>
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+    border-bottom: 1px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: red;
+    padding: 0.1em 0;
+    font-size: 1.20em;   
+    font-family: 'Staatliches', cursive;
+}
+
+nav ul {
+    text-align: center;
+    font-variant:normal;
+    font-weight: bold;
+    letter-spacing: 1.9px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0.1em;
+    margin: 20px;
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:visited {color: #fffb00;}
+
+nav a:hover {
+    border-bottom: none;
+    color: #ffffff;
+    transition: all 0.5s ease-in;
+}
+
+hr {
+    border: 0;
+    width: 100%;
+    height: 2px;
+    background-color: blue;
+    margin-top: 5em;
+    margin-bottom: 4em;
+}
+
+
+/*----------- IMAGES ---------*/
+
+
+.img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 45%;
+}
+
+.img2 {
+    display: inline;
+    float: inherit;
+    margin-left: 0.3em;
+    margin-right: 0.em;
+    margin-top: 2em;
+    width: 85%;
+    margin-bottom: 3em; 
+}
+
+.img3 {
+    display: inline;
+    float: inherit;
+    margin-left: 1em;
+    margin-right: 0.em;
+    margin-top: 2em;
+    width: 85%;
+    margin-bottom: 3em;  
+}
+
+.img4 {
+    display: inline;
+    float: inherit;
+    margin-left: 2.85em;
+    margin-right: 0.em;
+    margin-top: 2em;
+    width: 85%;
+    margin-bottom: 3em;
+}
+
+.img5 {
+    display: inline;
+    float: inherit;
+    margin-left: 2em;
+    margin-right: 0.em;
+    margin-top: 2em;
+    width: 85%;
+    margin-bottom: 3em;
+}
+
+.img6 {
+    display: inline;
+    float: inherit;
+    margin-left: 2.85em;
+    margin-right: 0.em;
+    margin-top: 2em;
+    width: 85%;
+    margin-bottom: 3em;
+}
+
+.img7 {
+    display: inline;
+    float: inherit;
+    margin-left: 0.5em;
+    margin-right: 1em;
+    margin-top: 2em;
+    width: 85%;
+    margin-bottom: 3em;
+}
+
+.img8 {
+    display: inline;
+    float: inherit;
+    margin-left: 5.5em;;
+    margin-right: 0.1em;
+    margin-top: 2em;
+    width: 85%;
+    margin-bottom: 2em;
+}
+
+.img9 {
+    display: inline;
+    float: inherit;
+    margin-left: 0.9em;
+    margin-right: 0.5em;
+    margin-top: 2em;
+    width: 85%;
+    margin-bottom: 2em;
+}
+
+.img10 {
+    display: inline;
+    float: inherit;
+    margin-left: 1.5em;
+    margin-right: 0.em;
+    margin-top: 2em;
+    width: 85%;
+    margin-bottom: 3em;
+}
+
+.img11 {
+    display: inline;
+    float: inherit;
+    margin-left: 0em;
+    margin-right: 1.2em;
+    margin-top: 2em;
+    width: 85%;
+    margin-bottom: 3em;
+}
+
+.img12 {
+    display: inline;
+    float: inherit;
+    margin-left: 1.5em;
+    margin-right: 0.0em;
+    margin-top: 2em;
+    width: 85%;
+    margin-bottom: 3em;
+}
+
+.img13 {
+    display: inline;
+    float: none;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-top: 0em;
+    width: 85%;
+    margin-bottom: 3em;  
+}
+
+.img14 {
+    display: inline;
+    float: none;
+    margin-left: 1.5em;
+    margin-right: auto;
+    margin-top: 2em;
+    width: 85%;
+    margin-bottom: 3em;  
+}
+
+.img15 {
+    display: inline;
+    float: inherit;
+    margin-left: 1.5em;
+    margin-right: 0em;
+    margin-top: 2em;
+    width: 85%;
+    margin-bottom: 3em;  
+}
+
+.img16 {
+    display: inline;
+    float: none;
+    margin-left: 1.01em;
+    margin-right: auto;
+    margin-top: 2em;
+    width: 85%;
+    margin-bottom: 3em;  
+}
+
+.img17 {
+    display: inline;
+    float: none;
+    margin-left: 6em;
+    margin-right: auto;
+    margin-top: 2em;
+    width: 85%;
+    margin-bottom: 3em;  
+}
+
+.img18 {
+    display: inline;
+    float: none;
+    margin-left: 2em;
+    margin-right: auto;
+    margin-top: 2em;
+    width: 85%;
+    margin-bottom: 3em;  
+}
+
+.img19 {
+    display: inline;
+    float: none;
+    margin-left: 0.5em;
+    margin-right: auto;
+    margin-top: 2em;
+    width: 85%;
+    margin-bottom: 3em;  
+}
+
+.img20 {
+    display: inline;
+    float: none;
+    margin-left: -0.01em;
+    margin-right: 0em;
+    margin-top: 2em;
+    width: 85%;
+    margin-bottom: 3em;  
+}
+
+.img21 {
+    display: inline;
+    float: none;
+    margin-left: 4em;
+    margin-right: 0em;
+    margin-top: 2em;
+    width: 85%;
+    margin-bottom: 3em;  
+}
+
+.img22 {
+    display: inline;
+    float: none;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-top: 0em;
+    width: 85%;
+    margin-bottom: 3em;  
+}
+
+
+/*-----BLOCKQUOTE----*/
+
+.blockquote1 {
+    font-size: 1.7em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    margin-right: 3.6em;
+    margin-left: 3.6em;
+    margin-top: 1em;
+    color: red;
+}
+
+.cite1 {
+    font-size: 1.5em;
+    font-variant: normal;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 0.1em;
+}
+   
+sup {
+    font-size: 0.54em;
+    color: #000000;
+}
+
+/*------ENDNOTES------*/
+    
+.endnote1 {
+    font-size: 0.8em;
+    color: #000000;
+    margin-bottom: 0.9em;
+    line-height: 1.5em;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.endnote1 a {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.endnote1 a:hover {
+    padding: 2px 2px 2px 2px;
+    background-color: red ;
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+
+/*----BIBLIOGRAPHY----*/
+
+.reference1 {
+    font-size: 0.8em;
+    color: #000000;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.reference1 a {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.reference1 a:hover {
+    padding: 2px 2px 2px 2px;
+    background-color: red ;
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+/*------ ICONS --------*/
+
+.connections {
+   position: relative;
+    margin: 0 auto;
+    margin: 10px, 0;
+}
+
+.connections ul {
+  margin: 0;
+  padding 0;
+}
+
+.connections li {
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.connection a:link {
+    border-bottom: none;
+}
+
+.connections img {
+   opacity: 0.6;
+    border: none;
+    height: 2.1em;
+}
+
+.connections a:hover img {
+    opacity: 1.0;
+    border-bottom: none;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.link{
+    font-size: 0.9em;
+    color: #000000;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.link a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.link a:hover {
+    padding: 2px 2px 2px 2px;
+    background-color: blue;
+    color: #ffffff;
+    opacity: 0.9;
+}
